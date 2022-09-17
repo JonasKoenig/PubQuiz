@@ -1,0 +1,12 @@
+.PlayerInput {
+    background-color: aqua;
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+}
+
+.PlayerInputButton {
+    position: fixed !important;
+    right: 20px;
+    bottom: 20px;
+}
