@@ -4,7 +4,7 @@ import './PlayerInput.css';
 
 function PlayerInputButton() {
   return (
-    <Fab className="PlayerInputButton">Test</Fab>
+    <Fab className="PlayerInputButton">test</Fab>
   );
 }
 

@@ -1,12 +1,12 @@
 .PlayerInput {
-    background-color: aqua;
     position: fixed;
-    left: 20px;
+    right: 20px;
     bottom: 20px;
+
+    display: grid;
+    grid-template-columns: auto auto auto;
 }
 
 .PlayerInputButton {
-    position: fixed !important;
-    right: 20px;
-    bottom: 20px;
+    margin: -3px !important;
 }
