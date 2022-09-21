@@ -1,10 +1,21 @@
-import React from 'react';
+import React, { ReactElement } from 'react';
 import { Fab } from '@mui/material';
 import './PlayerInput.css';
 
-function PlayerInputButton() {
+interface PlayerInputButtonProps {
+  color: string
+  label: string | ReactElement
+}
+
+function PlayerInputButton(props: PlayerInputButtonProps) {
+  const { color, label } = props;
   return (
-    <Fab className="PlayerInputButton">test</Fab>
+    <Fab
+      className="PlayerInputButton"
+      sx={{ backgroundColor: color }}
+    >
+      {label}
+    </Fab>
   );
 }
 
