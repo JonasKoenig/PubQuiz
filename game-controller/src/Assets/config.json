@@ -1,0 +1,43 @@
+{
+  "categories": [
+    {
+      "title": "Geography",
+      "questions": [
+        {
+          "title": "What is the world's longest river?",
+          "answer": 42
+        },{
+          "title": "Question 2",
+          "answer": 42
+        },{
+          "title": "Question 3",
+          "answer": 42
+        }
+      ]
+    },
+    {
+      "title": "Quotes",
+      "questions": [
+        {
+          "title": "Question 1",
+          "answer": 42
+        },{
+          "title": "Question 2",
+          "answer": 42
+        }
+      ]
+    },
+    {
+      "title": "Biology",
+      "questions": [
+        {
+          "title": "Question 1",
+          "answer": 42
+        },{
+          "title": "Question 2",
+          "answer": 42
+        }
+      ]
+    }
+  ]
+}

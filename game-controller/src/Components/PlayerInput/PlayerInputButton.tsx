@@ -5,14 +5,16 @@ import './PlayerInput.css';
 interface PlayerInputButtonProps {
   color: string
   label: string | ReactElement
+  position: 'top' | 'left' | 'right' | 'bottom'
 }
 
 function PlayerInputButton(props: PlayerInputButtonProps) {
-  const { color, label } = props;
+  const { color, label, position } = props;
   return (
     <Fab
       className="PlayerInputButton"
       sx={{ backgroundColor: color }}
+      onClick={() => document.dispatchEvent(new Event(`${position}Button`))}
     >
       {label}
     </Fab>

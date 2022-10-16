@@ -16,13 +16,13 @@ function PlayerInput() {
   return (
     <Box className="PlayerInput">
       <div />
-      <PlayerInputButton color={Theme.yellow} label={labels[0]} />
+      <PlayerInputButton color={Theme.yellow} label={labels[0]} position="top" />
       <div />
-      <PlayerInputButton color={Theme.blue} label={labels[3]} />
+      <PlayerInputButton color={Theme.blue} label={labels[3]} position="left" />
       <div />
-      <PlayerInputButton color={Theme.red} label={labels[1]} />
+      <PlayerInputButton color={Theme.red} label={labels[1]} position="right" />
       <div />
-      <PlayerInputButton color={Theme.green} label={labels[2]} />
+      <PlayerInputButton color={Theme.green} label={labels[2]} position="bottom" />
       <div />
     </Box>
   );
