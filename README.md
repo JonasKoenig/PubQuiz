@@ -1,2 +1,2 @@
-# React-Controller
-Game Controller for the browser. Written in React.
+# PubQuiz
+Pub Quiz Game written in React.
