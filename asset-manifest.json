@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/JonasKoenig/PubQuiz/static/css/main.60a5588f.css",
-    "main.js": "/JonasKoenig/PubQuiz/static/js/main.5aaa2d15.js",
-    "static/js/787.141b81df.chunk.js": "/JonasKoenig/PubQuiz/static/js/787.141b81df.chunk.js",
-    "index.html": "/JonasKoenig/PubQuiz/index.html",
-    "main.60a5588f.css.map": "/JonasKoenig/PubQuiz/static/css/main.60a5588f.css.map",
-    "main.5aaa2d15.js.map": "/JonasKoenig/PubQuiz/static/js/main.5aaa2d15.js.map",
-    "787.141b81df.chunk.js.map": "/JonasKoenig/PubQuiz/static/js/787.141b81df.chunk.js.map"
+    "main.css": "/PubQuiz/static/css/main.60a5588f.css",
+    "main.js": "/PubQuiz/static/js/main.cdc5f033.js",
+    "static/js/787.141b81df.chunk.js": "/PubQuiz/static/js/787.141b81df.chunk.js",
+    "index.html": "/PubQuiz/index.html",
+    "main.60a5588f.css.map": "/PubQuiz/static/css/main.60a5588f.css.map",
+    "main.cdc5f033.js.map": "/PubQuiz/static/js/main.cdc5f033.js.map",
+    "787.141b81df.chunk.js.map": "/PubQuiz/static/js/787.141b81df.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.60a5588f.css",
-    "static/js/main.5aaa2d15.js"
+    "static/js/main.cdc5f033.js"
   ]
 }
